@@ -34,7 +34,7 @@ const Intro = () => {
           ref={el}
         />
       </div>
-      <div className="flex flex-col items-center mt-auto text-black dark:text-white">
+      <div className="flex flex-col items-center pb-3 mt-auto text-black dark:text-white">
         <strong className="pb-2">Know More About Me</strong>
         <Link href="/#about">
           <IoChevronDownOutline className="text-6xl cursor-pointer animate-bounce" />
