@@ -27,14 +27,14 @@ const Intro = () => {
   }, []);
 
   return (
-    <section className="flex flex-col items-center justify-center min-h-screen wrap">
+    <section className="flex flex-col items-center justify-center fill-available-height wrap">
       <div id="intro" className="mt-auto text-6xl text-center md:text-8xl">
         <span
           className="h-10 text-black font-special-elite dark:text-white dark:neon-text"
           ref={el}
         />
       </div>
-      <div className="flex flex-col items-center pb-5 mt-auto text-black dark:text-white">
+      <div className="flex flex-col items-center mt-auto text-black dark:text-white">
         <strong className="pb-2">Know More About Me</strong>
         <Link href="/#about">
           <IoChevronDownOutline className="text-6xl cursor-pointer animate-bounce" />

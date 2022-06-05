@@ -6,8 +6,6 @@ html,
 body {
   --light-project-card-color: #ffccff;
   --dark-project-card-color: #96ff00;
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
@@ -131,6 +129,10 @@ body {
 }
 
 @layer utilities {
+  .fill-available-height {
+    height: 100vh;
+    max-height: -webkit-fill-available;
+  }
   .neon-text {
     text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff,
       0 0 80px #00b3ff, 0 0 120px #00b3ff;
