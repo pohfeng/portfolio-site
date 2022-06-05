@@ -1,16 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
+  --light-project-card-color: #ffccff;
+  --dark-project-card-color: #96ff00;
+  scroll-behavior: smooth;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #000;
+  background: #fff;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 200;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+[data-theme='dark'],
+[data-theme='dark'] body {
+  color: #fff;
+  background: #000;
 }
 
-* {
-  box-sizing: border-box;
+@layer components {
+  [data-theme='light'] .neon-container {
+    border: 2px solid var(--light-project-card-color);
+  }
+  [data-theme='light'] .neon-container:hover {
+    box-shadow: 0 0 10px var(--light-project-card-color),
+      0 0 20px var(--light-project-card-color),
+      0 0 30px var(--light-project-card-color);
+  }
+  [data-theme='light'] .neon-container::before {
+    background: var(--light-project-card-color);
+    box-shadow: 5px -8px 0 var(--light-project-card-color),
+      5px 8px 0 var(--light-project-card-color);
+  }
+  [data-theme='light'] .neon-container:hover::before {
+    box-shadow: 5px 0 0 var(--light-project-card-color),
+      5px 0 0 var(--light-project-card-color);
+  }
+  [data-theme='light'] .neon-container::after {
+    background: var(--light-project-card-color);
+    box-shadow: -5px -8px 0 var(--light-project-card-color),
+      -5px 8px 0 var(--light-project-card-color);
+  }
+  [data-theme='light'] .neon-container:hover::after {
+    box-shadow: -5px 0 0 var(--light-project-card-color),
+      -5px 0 0 var(--light-project-card-color);
+  }
+
+  .neon-container {
+    position: relative;
+    display: inline-block;
+    border: 2px solid var(--dark-project-card-color);
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    transition-delay: 0s;
+  }
+
+  .neon-container:hover {
+    transition-delay: 1s;
+    box-shadow: 0 0 10px var(--dark-project-card-color),
+      0 0 20px var(--dark-project-card-color),
+      0 0 30px var(--dark-project-card-color);
+  }
+
+  .neon-container::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 2px;
+    background: var(--dark-project-card-color);
+    box-shadow: 5px -8px 0 var(--dark-project-card-color),
+      5px 8px 0 var(--dark-project-card-color);
+    transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s;
+    transition-delay: 0.5s, 0.5s, 0s, 0s;
+    border-radius: 0.375rem;
+  }
+
+  .neon-container:hover::before {
+    width: 60%;
+    height: 100%;
+    left: -2px;
+    box-shadow: 5px 0 0 var(--dark-project-card-color),
+      5px 0 0 var(--dark-project-card-color);
+    transition-delay: 0s, 0s, 0.5s, 0.5s;
+  }
+
+  .neon-container::after {
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 2px;
+    background: var(--dark-project-card-color);
+    box-shadow: -5px -8px 0 var(--dark-project-card-color),
+      -5px 8px 0 var(--dark-project-card-color);
+    transition: width 0.5s, right 0.5s, height 0.5s, box-shadow 0.5s;
+    transition-delay: 0.5s, 0.5s, 0s, 0s;
+    border-radius: 0.375rem;
+  }
+
+  .neon-container:hover::after {
+    width: 60%;
+    height: 100%;
+    right: -2px;
+    box-shadow: -5px 0 0 var(--dark-project-card-color),
+      -5px 0 0 var(--dark-project-card-color);
+    transition-delay: 0s, 0s, 0.5s, 0.5s;
+  }
+
+  .accordion-list {
+    --highlight: #ffc48b;
+    border-left-color: #ffc48b;
+  }
+
+  details[open] summary ~ * {
+    animation: animate-accordion-content 0.5s ease-in-out;
+  }
+}
+
+@layer utilities {
+  .neon-text {
+    text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff,
+      0 0 80px #00b3ff, 0 0 120px #00b3ff;
+  }
+}
+
+@keyframes animate-accordion-content {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
