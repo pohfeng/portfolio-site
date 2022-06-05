@@ -16,7 +16,7 @@ export default function HomePage() {
   return (
     <div className="container max-w-3xl mx-auto">
       <Head>
-        <title>Poh Feng's Portfolio</title>
+        <title>Poh Feng&apos;s Portfolio</title>
         <meta name="description" content="Portfolio Page of Poh Feng Pang" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
