@@ -11,6 +11,7 @@ export default function HomePage() {
   const { setTheme } = useTheme();
   useEffect(() => {
     setTheme('dark');
+    window.scrollTo(0, 0);
   }, [setTheme]);
 
   return (
