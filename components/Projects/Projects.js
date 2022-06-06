@@ -44,11 +44,15 @@ const Projects = () => {
         appName="Portfolio Site"
         description="Build with Next.js and Tailwind CSS. Pre-renders website page to have better performance and SEO."
         techStack={portfolioSiteTech}
+        demoLink="/"
+        gitHubLink="https://github.com/pohfeng/portfolio-site"
       />
       <Card
         appName="React Ecommerce App"
         description="An Online Store build with React.js and SCSS."
         techStack={eCommerceAppTech}
+        demoLink="/"
+        gitHubLink="https://github.com/pohfeng/react-ecommerce-app"
       />
       {/* <Card appName="Library App" techStack={libraryApp} />
       <Card
