@@ -1,5 +1,3 @@
-import SectionContainer from '../Layout/SectionContainer';
-
 const About = () => {
   return (
     <section id="about">

@@ -19,20 +19,20 @@ const Projects = () => {
     { text: 'Redux', colorClass: 'shadow-[0_0_10px_#FF8000] bg-[#FF8000]' },
   ];
 
-  const libraryApp = [
-    { text: 'React', colorClass: 'shadow-[0_0_10px_#7367f0] bg-[#7367f0]' },
-    { text: 'CSS', colorClass: 'shadow-[0_0_10px_#38bdf8] bg-sky-400' },
-    {
-      text: 'React Router',
-      colorClass: 'shadow-[0_0_10px_#80FF00] bg-[#80FF00]',
-    },
-    { text: 'Redux', colorClass: 'shadow-[0_0_10px_#FF8000] bg-[#FF8000]' },
-  ];
+  // const libraryApp = [
+  //   { text: 'React', colorClass: 'shadow-[0_0_10px_#7367f0] bg-[#7367f0]' },
+  //   { text: 'CSS', colorClass: 'shadow-[0_0_10px_#38bdf8] bg-sky-400' },
+  //   {
+  //     text: 'React Router',
+  //     colorClass: 'shadow-[0_0_10px_#80FF00] bg-[#80FF00]',
+  //   },
+  //   { text: 'Redux', colorClass: 'shadow-[0_0_10px_#FF8000] bg-[#FF8000]' },
+  // ];
 
-  const marvelComicInfoAppTech = [
-    { text: 'Vue', colorClass: 'shadow-[0_0_10px_#84cc16] bg-lime-500' },
-    { text: 'SCSS', colorClass: 'shadow-[0_0_10px_pink] bg-pink-300' },
-  ];
+  // const marvelComicInfoAppTech = [
+  //   { text: 'Vue', colorClass: 'shadow-[0_0_10px_#84cc16] bg-lime-500' },
+  //   { text: 'SCSS', colorClass: 'shadow-[0_0_10px_pink] bg-pink-300' },
+  // ];
 
   return (
     <section id="projects" className="flex flex-col pt-16">
