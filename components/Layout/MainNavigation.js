@@ -15,13 +15,13 @@ const MainNavigation = () => {
   };
 
   const lightThemeToggleBtn = (
-    <button onClick={changeThemeHandler.bind(null, 'light')}>
+    <button aria-label="Change to light theme" onClick={changeThemeHandler.bind(null, 'light')}>
       <FiSun className="mx-2 text-3xl" />
     </button>
   );
 
   const darkThemeToggleBtn = (
-    <button onClick={changeThemeHandler.bind(null, 'dark')}>
+    <button aria-label="Change to light theme" onClick={changeThemeHandler.bind(null, 'dark')}>
       <FiMoon className="mx-2 text-3xl" />
     </button>
   );
