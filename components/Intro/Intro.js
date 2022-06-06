@@ -10,7 +10,7 @@ const Intro = () => {
 
   useEffect(() => {
     const options = {
-      strings: ['Hi there!', "I'm Poh Feng.", 'A Full Stack Developer.'],
+      strings: ['Hi!', "I'm Poh Feng.", 'A Full Stack Developer.'],
       typeSpeed: 80,
       backSpeed: 50,
       loop: true,
@@ -28,7 +28,7 @@ const Intro = () => {
 
   return (
     <section className="flex flex-col items-center justify-center min-h-screen wrap">
-      <div id="intro" className="mt-auto text-6xl text-center md:text-8xl">
+      <div id="intro" className="mt-auto text-6xl text-center lg:text-8xl">
         <span
           className="h-10 text-black font-special-elite dark:text-white dark:neon-text"
           ref={el}
