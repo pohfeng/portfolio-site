@@ -68,7 +68,7 @@ const MainNavigation = () => {
                 <FaLinkedin />
               </Link>
             </li>
-            <li className="mx-2 text-3xl">
+            <li className="mx-2 text-3xl cursor-pointer">
               <Link href="https://github.com/pohfeng">
                 <FaGithubSquare />
               </Link>
