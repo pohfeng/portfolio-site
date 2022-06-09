@@ -5,7 +5,7 @@ const About = () => {
       <div className="flex">
         <div className="text-base text-justify min-h-fit md:text-xl">
           <p className="mb-3">
-            Hi, I am a self-taught Full Stack Developer with four years of
+            Hi, I am a self-taught Full Stack Developer with about four years of
             experience developing web applications. After working hours, I spend
             most of my time polishing my web development skills and making
             myself a better developer every day.

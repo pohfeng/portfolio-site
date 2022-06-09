@@ -22,13 +22,19 @@ const ProjectCard = (props) => {
       <div className="absolute top-0 left-0 z-40 invisible w-full h-full text-4xl text-black opcaity-0 group-hover:animate-neon_act_show">
         <div className="flex flex-col items-center justify-center h-full md:flex-row ">
           <Link href={props.demoLink}>
-            <a className="flex items-center justify-center px-5 py-2 m-5 border-2 border-black border-solid rounded cursor-pointer hover:text-white active:scale-95">
+            <a
+              target={props.demoLink !== '/' ? '_blank' : ''}
+              className="flex items-center justify-center px-5 py-2 m-5 border-2 border-black border-solid rounded cursor-pointer hover:text-white active:scale-95"
+            >
               <AiOutlinePlayCircle className="h-full" />
               <span>Demo</span>
             </a>
           </Link>
           <Link href={props.gitHubLink}>
-            <a className="flex items-center justify-center px-5 py-2 mx-5 my-2 border-2 border-black border-solid rounded cursor-pointer hover:text-white">
+            <a
+              target="_blank"
+              className="flex items-center justify-center px-5 py-2 mx-5 my-2 border-2 border-black border-solid rounded cursor-pointer hover:text-white"
+            >
               <AiFillGithub className="h-full" />
               <span>GitHub</span>
             </a>

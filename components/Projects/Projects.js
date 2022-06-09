@@ -51,7 +51,7 @@ const Projects = () => {
         appName="React Ecommerce App"
         description="An Online Store build with React.js and SCSS."
         techStack={eCommerceAppTech}
-        demoLink="/"
+        demoLink="https://react-ecommerce-app-dd10f.web.app/"
         gitHubLink="https://github.com/pohfeng/react-ecommerce-app"
       />
       {/* <Card appName="Library App" techStack={libraryApp} />
