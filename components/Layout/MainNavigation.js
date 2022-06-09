@@ -39,9 +39,9 @@ const MainNavigation = () => {
 
   return (
     <header className="fixed z-10 flex justify-center w-full bg-white dark:bg-black bg-opacity-90">
-      <div className="flex flex-col  w-full text-center grow-[1] md:max-w-4xl md:flex-row">
+      <div className="flex flex-col  w-full text-center grow-[1] md:max-w-5xl md:flex-row">
         <div className="flex justify-between w-full px-5 pt-1">
-          <div className="flex items-center text-3xl font-special-elite ">
+          <div className="flex items-center text-3xl font-special-elite">
             <Link href="/">Poh Feng</Link>
             {mounted && theme === 'dark' && lightThemeToggleBtn}
             {mounted && theme === 'light' && darkThemeToggleBtn}
