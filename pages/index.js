@@ -29,7 +29,7 @@ export default function HomePage() {
         <Projects />
       </main>
 
-      <footer className="flex flex-col items-center justify-between my-4 md:flex-row">
+      <footer className="flex flex-col items-center justify-between my-4 md:flex-row ">
         <div>
           <span>Developed with</span>
           <a
@@ -50,7 +50,7 @@ export default function HomePage() {
             Tailwind CSS
           </a>
         </div>
-        <div>
+        <div className="mt-2 md:mt-0">
           <p>© Pang Poh Feng. All Rights Reserved.</p>
         </div>
       </footer>
