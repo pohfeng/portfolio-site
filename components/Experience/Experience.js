@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <section id="experience" className="pt-16">
       <h2 className="my-4 text-4xl font-special-elite">Work Experience</h2>
-      <ExperienceItem summary="Fusionex Group (2018 - present)">
+      <ExperienceItem summary="Fusionex Group (2018 - present)" open={true}>
         <p className="text-justify">
           I joined Fusionex and started my career as a solutions development
           consultant in 2018. I involved in both frontend and backend
