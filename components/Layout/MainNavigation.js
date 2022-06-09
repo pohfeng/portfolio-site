@@ -40,7 +40,7 @@ const MainNavigation = () => {
   return (
     <header className="fixed z-10 flex justify-center w-full bg-white dark:bg-black bg-opacity-90">
       <div className="flex flex-col  w-full text-center grow-[1] md:max-w-5xl md:flex-row">
-        <div className="flex justify-between w-full px-5 pt-1">
+        <div className="flex justify-center w-full px-5 pt-1 md:justify-between">
           <div className="flex items-center text-3xl font-special-elite">
             <Link href="/">Poh Feng</Link>
             {mounted && theme === 'dark' && lightThemeToggleBtn}
@@ -62,7 +62,7 @@ const MainNavigation = () => {
               </li>
             </ul>
           </nav>
-          <ul className="flex items-center justify-center">
+          <ul className="flex items-center justify-center ml-2 md:ml-0">
             <li className="mx-2 text-3xl cursor-pointer">
               <Link href="https://www.linkedin.com/in/pang-poh-feng-055272226/">
                 <FaLinkedin />

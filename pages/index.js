@@ -29,25 +29,30 @@ export default function HomePage() {
         <Projects />
       </main>
 
-      <footer className="flex items-center my-4 ">
-        <span>Build with</span>
-        <a
-          href="https://nextjs.org/"
-          target="_blank"
-          className="px-3 text-[#5d5dd5] italic font-semibold"
-          rel="noreferrer"
-        >
-          NextJS
-        </a>
-        <span>and</span>
-        <a
-          href="https://tailwindcss.com/"
-          target="_blank"
-          className="px-3 text-[#5d5dd5]  italic font-semibold"
-          rel="noreferrer"
-        >
-          Tailwind CSS
-        </a>
+      <footer className="flex flex-col items-center justify-between my-4 md:flex-row ">
+        <div>
+          <span>Developed with</span>
+          <a
+            href="https://nextjs.org/"
+            target="_blank"
+            className="px-3 text-[#5d5dd5] italic font-semibold"
+            rel="noreferrer"
+          >
+            NextJS
+          </a>
+          <span>and</span>
+          <a
+            href="https://tailwindcss.com/"
+            target="_blank"
+            className="px-3 text-[#5d5dd5]  italic font-semibold"
+            rel="noreferrer"
+          >
+            Tailwind CSS
+          </a>
+        </div>
+        <div className="mt-2 md:mt-0">
+          <p>© Pang Poh Feng. All Rights Reserved.</p>
+        </div>
       </footer>
     </div>
   );
