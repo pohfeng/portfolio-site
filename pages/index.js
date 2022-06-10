@@ -17,8 +17,28 @@ export default function HomePage() {
   return (
     <div className="container max-w-3xl mx-auto">
       <Head>
-        <title>Poh Feng&apos;s Portfolio</title>
-        <meta name="description" content="Portfolio Page of Pang Poh Feng" />
+        <title>Pang Poh Feng - Full Stack Developer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="follow, index" />
+        <meta name="author" content="Pang Poh Feng" />
+        <meta name="application-name" content="Pang Poh Feng's Portfolio" />
+        <meta
+          name="description"
+          content="Full Stack Developer, I enjoyed developing web apps that run lighting fast."
+        />
+        <meta property="og:url" content="https://www.pf-pang.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Pang Poh Feng's Portfolio" />
+        <meta
+          property="og:description"
+          content="Full Stack Developer, I enjoyed developing web apps that run lighting fast."
+        />
+        <meta
+          property="og:title"
+          content="Pang Poh Feng - Full Stack Developer"
+        />
+        <meta />
+        <link rel="canonical" href="https://www.pf-pang.com/" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
