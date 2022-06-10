@@ -11,7 +11,7 @@ class MyDocument extends Document {
       <Html className="dark">
         <Head>
           <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Special+Elite&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Special+Elite&display=swap"
             rel="stylesheet"
           />
         </Head>
