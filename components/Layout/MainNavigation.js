@@ -42,7 +42,9 @@ const MainNavigation = () => {
       <div className="flex flex-col  w-full text-center grow-[1] md:max-w-5xl md:flex-row">
         <div className="flex justify-center w-full px-5 pt-1 md:justify-between">
           <div className="flex items-center text-3xl font-special-elite">
-            <Link href="/">Poh Feng</Link>
+            <Link href="/">
+              <h1>Poh Feng</h1>
+            </Link>
             {mounted && theme === 'dark' && lightThemeToggleBtn}
             {mounted && theme === 'light' && darkThemeToggleBtn}
           </div>
@@ -58,7 +60,9 @@ const MainNavigation = () => {
                 <Link href="/#projects">Projects</Link>
               </li>
               <li className="py-2 rounded-md md:px-4 sm:px-2">
-                <Link href="/resume">Resume</Link>
+                <Link href="/resume" rel="nofollow">
+                  Resume
+                </Link>
               </li>
             </ul>
           </nav>
@@ -87,7 +91,9 @@ const MainNavigation = () => {
               <Link href="/#projects">Projects</Link>
             </li>
             <li className="pt-2 rounded-md md:px-4 sm:px-2">
-              <Link href="/resume">Resume</Link>
+              <Link href="/resume" rel="nofollow">
+                Resume
+              </Link>
             </li>
           </ul>
         </nav>
