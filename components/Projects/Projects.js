@@ -72,7 +72,7 @@ const Projects = () => {
         gitHubLink="https://github.com/pohfeng/react-ecommerce-app"
       />
       <Card
-        appName="Online Tic Tac Toe App"
+        appName="Online Tic-Tac-Toe App"
         description="An Online Tic-tac-toe game."
         techStack={ticTacToeAppTech}
         demoLink="https://tic-tac-toe-client-five.vercel.app/#/"
