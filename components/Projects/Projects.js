@@ -19,6 +19,23 @@ const Projects = () => {
     { text: 'Redux', colorClass: 'shadow-[0_0_10px_#FF8000] bg-[#FF8000]' },
   ];
 
+  const ticTacToeAppTech = [
+    { text: 'Vue', colorClass: 'shadow-[0_0_10px_#80FF00] bg-[#80FF00]' },
+    { text: 'SCSS', colorClass: 'shadow-[0_0_10px_pink] bg-pink-300' },
+    {
+      text: 'Node.js',
+      colorClass: 'shadow-[0_0_10px_#80FF00] bg-[#80FF00]',
+    },
+    {
+      text: 'Express.js',
+      colorClass: 'shadow-[0_0_10px_#7367f0] bg-[#7367f0]',
+    },
+    {
+      text: 'Socket.IO',
+      colorClass: 'shadow-[0_0_10px_#3399FF] bg-[#3399FF]',
+    },
+  ];
+
   // const libraryApp = [
   //   { text: 'React', colorClass: 'shadow-[0_0_10px_#7367f0] bg-[#7367f0]' },
   //   { text: 'CSS', colorClass: 'shadow-[0_0_10px_#38bdf8] bg-sky-400' },
@@ -53,6 +70,13 @@ const Projects = () => {
         techStack={eCommerceAppTech}
         demoLink="https://react-ecommerce-app-dd10f.web.app/"
         gitHubLink="https://github.com/pohfeng/react-ecommerce-app"
+      />
+      <Card
+        appName="Online Tic Tac Toe App"
+        description="An Online Tic-tac-toe game."
+        techStack={ticTacToeAppTech}
+        demoLink="https://tic-tac-toe-client-five.vercel.app/#/"
+        gitHubLink="https://github.com/pohfeng/tic-tac-toe-client"
       />
       {/* <Card appName="Library App" techStack={libraryApp} />
       <Card
