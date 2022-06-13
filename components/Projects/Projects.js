@@ -58,11 +58,11 @@ const Projects = () => {
         Here are some projects I wrote as practice.
       </p>
       <Card
-        appName="Portfolio Site"
-        description="Build with Next.js and Tailwind CSS. Pre-renders website page to have better performance and SEO."
-        techStack={portfolioSiteTech}
-        demoLink="/"
-        gitHubLink="https://github.com/pohfeng/portfolio-site"
+        appName="Online Tic-Tac-Toe App"
+        description="An Online Tic-tac-toe game."
+        techStack={ticTacToeAppTech}
+        demoLink="https://tic-tac-toe-client-five.vercel.app/#/"
+        gitHubLink="https://github.com/pohfeng/tic-tac-toe-client"
       />
       <Card
         appName="React Ecommerce App"
@@ -72,11 +72,11 @@ const Projects = () => {
         gitHubLink="https://github.com/pohfeng/react-ecommerce-app"
       />
       <Card
-        appName="Online Tic-Tac-Toe App"
-        description="An Online Tic-tac-toe game."
-        techStack={ticTacToeAppTech}
-        demoLink="https://tic-tac-toe-client-five.vercel.app/#/"
-        gitHubLink="https://github.com/pohfeng/tic-tac-toe-client"
+        appName="Portfolio Site"
+        description="Build with Next.js and Tailwind CSS. Pre-renders website page to have better performance and SEO."
+        techStack={portfolioSiteTech}
+        demoLink="/"
+        gitHubLink="https://github.com/pohfeng/portfolio-site"
       />
       {/* <Card appName="Library App" techStack={libraryApp} />
       <Card
