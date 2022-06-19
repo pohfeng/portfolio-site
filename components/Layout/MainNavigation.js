@@ -26,7 +26,7 @@ const MainNavigation = () => {
 
   const darkThemeToggleBtn = (
     <button
-      aria-label="Change to light theme"
+      aria-label="Change to dark theme"
       onClick={changeThemeHandler.bind(null, 'dark')}
     >
       <FiMoon className="mx-2 text-3xl" />
