@@ -1,6 +1,7 @@
 const ExperienceItem = (props) => {
   return (
     <details
+      data-testid="experience-item"
       className="accordion-list rounded-md overflow-hidden bg-[#FFF6EE] dark:bg-black border-l-[15px] p-8"
       open={props.open}
     >
