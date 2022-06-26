@@ -60,9 +60,9 @@ const MainNavigation = () => {
                 <Link href="/#projects">Projects</Link>
               </li>
               <li className="py-2 rounded-md md:px-4 sm:px-2">
-                <Link href="/resume" rel="nofollow">
+                <a href="/resume.pdf" target="_blank" rel="nofollow">
                   Resume
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>
