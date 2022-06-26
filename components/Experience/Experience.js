@@ -6,9 +6,8 @@ const Experience = () => {
       <h2 className="my-4 text-4xl font-special-elite">Work Experience</h2>
       <ExperienceItem summary="Fusionex Group (2018 - present)" open={true}>
         <p className="text-justify">
-          I joined Fusionex and started my career as a solutions development
-          consultant in 2018. I involved in both frontend and backend
-          development of several web applications.
+          Joined Fusionex as a solutions development consultant in 2018.
+          Familiar in frontend and backend development of web application.
         </p>
         <ul className="pl-5 mt-2 text-base list-disc">
           <li>Forms Development with Vue.js and Knockout.js</li>
@@ -22,7 +21,7 @@ const Experience = () => {
           <li>Experienced with message broker such as Rabbit MQ</li>
           <li>Experienced with Docker and Kubernetes</li>
           <li>CI/CD with Jenkins auto deployment</li>
-          <li>Version control with Git</li>
+          <li>Familiar with GIT versioning control</li>
           <li>Work under scrum methodology</li>
         </ul>
       </ExperienceItem>
