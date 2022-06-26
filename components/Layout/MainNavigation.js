@@ -68,14 +68,22 @@ const MainNavigation = () => {
           </nav>
           <ul className="flex items-center justify-center ml-2 md:ml-0">
             <li className="mx-2 text-3xl cursor-pointer">
-              <Link href="https://www.linkedin.com/in/pang-poh-feng-055272226/">
+              <a
+                href="https://www.linkedin.com/in/pang-poh-feng-055272226/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaLinkedin />
-              </Link>
+              </a>
             </li>
             <li className="mx-2 text-3xl cursor-pointer">
-              <Link href="https://github.com/pohfeng">
+              <a
+                href="https://github.com/pohfeng"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithubSquare />
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
